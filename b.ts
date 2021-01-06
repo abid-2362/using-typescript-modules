@@ -1,3 +1,6 @@
-import { aString } from './a';
+// import { aString } from './a';
+import * as strings from './a';
 
-console.log(aString);
+console.log(strings.aString);
+
+import { reverse, isOdd } from './utils';
